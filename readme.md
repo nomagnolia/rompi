@@ -29,7 +29,7 @@ Who Pays Your MP is an attempt to democratise the extra income data for MPs in t
 3.  Salaries are updated (I think) yearly.
 4.  The Companies House API allows a max of [600 requests per five minutes](https://developer.company-information.service.gov.uk/developer-guidelines/) - 2 per second. With 650 MPs, some of whom don't declare any extra income, this shouldn't be a limiting factor, although CH data is notoriously crappy.
 5.  The Electoral Commission tracks donations to parties, which would be very useful in revealing that someone had donated to MPs A, B and C, and also to their party as a whole. The website, however, makes it virtually impossible to find this data. A blank search returns nearly 75,000 paginated results, which seems to also include donations to individual MPs - is this a copy of what's on the main RoMPI? It's not clear.
-    1.  There's a CSV export at the bottom of a results page (`<a data-bind="attr: {'href': exportCsvUrl }" target="_blank" class="">` on line 882) if that's helpful.
+    1.  There's a CSV export at the bottom of a results page (`<a data-bind="attr: {'href': exportCsvUrl }" target="_blank" class="">` on line 882) if that's helpful. That suggests the largest donation in this reporting period is £750k given to the Conservatives by party treasurer Malik Karim, which strangely isn't mentioned in [this article](https://www.theguardian.com/politics/2021/nov/12/tory-treasurer-could-net-millions-from-controversial-lv-takeover)
 7.  This is a very manual step.
 
 ## Systems to create
