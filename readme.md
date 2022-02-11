@@ -45,7 +45,7 @@ Who Pays Your MP is an attempt to democratise the extra income data for MPs in t
 * Some kind of JS framework for the front end (Angular, Vue, React etc)
 
 ## Wishlist
-* A backend which allows flexibility when assigning currency amounts to different sources
+* A backend which allows flexibility when assigning currency amounts to different sources, presents an admin user with a best guess of what a particular entry means, and allows corrections
 * The DB should hold donor information (both private individuals and companies) and keep a paper trail of edits
 * Eventually, a Wikipedia-style interface that allows signed-in users to contribute (with a full audit trail of course)
 
