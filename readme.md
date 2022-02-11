@@ -7,6 +7,7 @@ Who Pays Your MP is an attempt to democratise the extra income data for MPs in t
 * [Systems to Create](#systems-to-create)
 * [Suggested Technologies](#suggested-technologies)
 * [Wishlist](#wishlist)
+* [Similar Projects](#similar-projects)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -48,6 +49,10 @@ Who Pays Your MP is an attempt to democratise the extra income data for MPs in t
 * A backend which allows flexibility when assigning currency amounts to different sources, presents an admin user with a best guess of what a particular entry means, and allows corrections
 * The DB should hold donor information (both private individuals and companies) and keep a paper trail of edits
 * Eventually, a Wikipedia-style interface that allows signed-in users to contribute (with a full audit trail of course)
+
+## Similar Projects
+* [Members' Interests](https://www.membersinterests.org.uk/commons/entries/new) - a decent scrape, but doesn't do anything with the data. The only advantage over the original register is that it shows new entries since last time, and allows the data to be downloaded.
+* [They Work For You](theyworkforyou.com) includes a scrape for each MP among all its other data, but doesn't do anything with it beyond displaying it.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
